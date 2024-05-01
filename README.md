@@ -13,6 +13,8 @@ Este é um projeto que tem como objetivo enviar um versículo da Bíblia por dia
 
 ### Configuração
 
+Crie uma conta em: https://www.twilio.com/en-us<br>
+Após criar a conta (free), você receberá os itens necessários para configurar.<br>
 Certifique-se de configurar corretamente as credenciais do Twilio no arquivo `application.properties`.
 
 ```properties

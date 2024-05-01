@@ -1,6 +1,7 @@
 # Versículo do Dia
 
-Este é um projeto que tem como objetivo enviar um versículo da Bíblia por dia para os usuários cadastrados.
+> Consumo da API: https://www.abibliadigital.com.br/<br>
+> Envio via whatsapp por meio do Twilio: https://www.twilio.com/docs/whatsa<br>
 
 ---
 ## Funcionalidades

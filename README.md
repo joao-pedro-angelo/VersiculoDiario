@@ -6,7 +6,7 @@
 ---
 ## Funcionalidades
 
-- Envio diário de um versículo da Bíblia para os usuários cadastrados.
+- Envio diário de um versículo da Bíblia.
 - Suporte para envio de versículos via WhatsApp.
 
 ---
@@ -33,4 +33,5 @@ http://localhost:8080/versiculos/seuNumero
 
 ### Uso
 
-Para receber o versículo do dia via WhatsApp, envie uma mensagem para o número +14155238886 com o conteúdo `join generally-nine`.
+Para receber o versículo do dia via WhatsApp, envie uma mensagem para o número +14155238886 com o conteúdo `join generally-nine`.<br>
+Isso permitirá que a API do Twilio se comunique com o seu número.

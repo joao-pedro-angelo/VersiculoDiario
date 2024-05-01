@@ -6,7 +6,6 @@
 ---
 ## Funcionalidades
 
-- Envio diário de um versículo da Bíblia.
 - Suporte para envio de versículos via WhatsApp.
 
 ---

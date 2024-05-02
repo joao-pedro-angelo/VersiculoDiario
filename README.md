@@ -6,7 +6,8 @@
 ---
 ## Funcionalidades
 
-- Suporte para envio de versículos via WhatsApp.
+- Suporte para envio de versículos via WhatsApp: [Visão do Celular](https://drive.google.com/file/d/1ZdrbYJoiNvcCPhC4-FKVDZNuzB8nJh4b/view?usp=sharing)<br>
+- Geração aleatória de versículos da Bíblia: [Vídeo Demonstração](https://drive.google.com/file/d/1-xF_-mGCkj_RDRwQqlsxfCe0Wlz2uWRq/view?usp=sharing)
 
 ---
 ## Como Usar
@@ -27,7 +28,7 @@ twilio.whatsapp_number=SEU_NUMERO_TWILIO
 
 Para executar o projeto, você pode usar a classe principal `VersiculoDoDiaApplication` e acessar a URL:
 ```bash
-http://localhost:8080/versiculos/seuNumero
+http://localhost:8080/versiculos/seuNumero ou http://localhost:8080/versiculos
 ```
 
 ### Uso

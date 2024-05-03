@@ -10,9 +10,7 @@
 - Geração aleatória de versículos da Bíblia: [Vídeo Demonstração](https://drive.google.com/file/d/1-xF_-mGCkj_RDRwQqlsxfCe0Wlz2uWRq/view?usp=sharing)
 
 ---
-## Como Usar
-
-### Configuração
+## Configuração
 
 Crie uma conta em: https://www.twilio.com/en-us<br>
 Após criar a conta (free), você receberá os itens necessários para configurar.<br>
@@ -26,17 +24,21 @@ twilio.whatsapp_number=SEU_NUMERO_TWILIO
 
 > Caso o número twilio gerado após criar sua conta não esteja funcionando, use: +14155238886
 
-### Execução
+---
+## Execução
 
 Execute a classe principal `Application`;<br>
 Para gerar um versículo aleatório, acesse a url: `http://localhost:8080/versiculos`;<br>
-Para enviar o versículos via whatsapp, acesse a url: `http://localhost:8080/versiculos/{whatsappNumero}`
+Para enviar o versículo via whatsapp, acesse a url: `http://localhost:8080/versiculos/numeroWhatsapp`
 
-> Observação: O número de whatsapp deve estar no formato +CodigoPaisDDDNumero<br>
-> Exemplo: +558392345678 (sem o 9 extra)
+> Observação: atente-se ao formato do número.<br><br>
+> Exemplo de número: +558392345678 (sem o 9 extra)<br>
+> Exemplo na URL: `http://localhost:8080/versiculos/+558392345678`
 
-### Permissão
+---
+## Permissão
 
-A API Twilio precisa de permisão para enviar a mensagem para o whatsapp.<br>
+O Twilio precisa de permisão para enviar a mensagem para o whatsapp.<br>
+
 Para receber o versículo do dia via WhatsApp, envie uma mensagem para o número +14155238886 com o conteúdo `join generally-nine`.<br>
 Isso permitirá que a API do Twilio se comunique com o seu número.
